@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(254, 254, 254);
+}
+
+
+.page {
+  width: 400px;
+  margin: auto;
+  padding: 30px 0px 0px 0px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #E5C2C0;
+  border: 1px solid #0D5D56;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+canvas {
+  touch-action: none;
+  background-color: #ffffff;
+  border: 2px solid #51b8af;
+  border-radius: 8px;
+}
+
+.bounds {
+  position: relative;
+  background-color: #c6b1b1;
+  height: 610px;
+  border: 2px solid #c6b1b1;
+  border-radius: 8px;
+
+}
+
+.bounds canvas {
+  position: absolute;
+  display: block;
+  background-color: transparent;
+}
+
+.bounds #share-1 {
+  top: 0px;
+}
+
+.bounds #share-2 {
+  bottom: 0px;
+}
+
+
+
+.bounds canvas.hidden,
+.hidden {
+  display: none;
+}

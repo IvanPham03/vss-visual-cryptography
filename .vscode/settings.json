@@ -1,0 +1,7 @@
+// tệp cấu hình cho một công cụ kiểm tra chính
+
+{
+    // chỉ định một thuộc tính cSpell.words 
+    // với giá trị là một mảng chứa một từ duy nhất là "sitecofig".
+    "cSpell.words": ["sitecofig"]
+}
